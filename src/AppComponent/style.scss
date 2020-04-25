@@ -1,0 +1,28 @@
+.tambola-container {
+  background-color: #889064;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .btn {
+    margin-top: 1em;
+    background-color: #212529;
+    width: 10em;
+    &.btn-link {
+      background-color: transparent;
+      color: #212529;
+    }
+  }
+  .tambola-footer {
+    width: 30%;
+  }
+  .contact-us-link {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  a.link {
+    color: #212529;
+    display: block;
+    background-color: transparent;
+  }
+}
